@@ -1,4 +1,5 @@
- import styled from 'styled-components';
+import styled from 'styled-components';
+ 
 
  export const Container = styled.div`
  background-color: #fff;
@@ -10,7 +11,7 @@
  max-width: 100%;
  min-height: 400px;
  margin: auto;
- margin-top: 10rem;
+ margin-top: 9rem;
  `;
 
  export const SignUpContainer = styled.div`
@@ -122,6 +123,7 @@ left: -100%;
 height: 100%;
 width: 200%;
 transform: translateX(0);
+overflow-x: hidden;
 transition: transform 0.6s ease-in-out;
 ${props => (props.signinIn !== true ? `transform: translateX(50%);` : null)}
 `;
@@ -138,16 +140,19 @@ ${props => (props.signinIn !== true ? `transform: translateX(50%);` : null)}
      height: 100%;
      width: 50%;
      transform: translateX(0);
+     overflow-x: hidden;
      transition: transform 0.6s ease-in-out;
  `;
 
  export const LeftOverlayPanel = styled(OverlayPanel)`
    transform: translateX(-20%);
+   overflow-x: hidden;
    ${props => props.signinIn !== true ? `transform: translateX(0);` : null}
  `;
 
  export const RightOverlayPanel = styled(OverlayPanel)`
      right: 0;
+     overflow-x: hidden;
      transform: translateX(0);
      ${props => props.signinIn !== true ? `transform: translateX(20%);` : null}
  `;

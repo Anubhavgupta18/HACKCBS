@@ -91,3 +91,33 @@ nav {
   border: 0;
   line-height: 30px;
 }
+
+.bgimage{
+  width: 100%; 
+}
+#homeContent{
+  font-size: 5rem;
+  overflow-x: hidden;
+  color:#4f497c;
+}
+#homeContent2{
+  font-size: 4rem;
+}
+.col-md-6{
+  overflow-x: hidden;
+  margin-top: 10rem;
+}
+.container-fluid{
+  overflow-x: hidden;
+}
+#gif{
+  position: relative;
+  bottom: 10rem;
+  width: 35%;
+  height: 35%;
+}
+#homeContent3{
+  font-size: 2rem;
+  position: relative;
+  bottom: 8rem;
+}
